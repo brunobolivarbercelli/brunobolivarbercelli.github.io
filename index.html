@@ -10,7 +10,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meu Portifólio</title>
+    <title>Meu Portfólio</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -29,7 +29,7 @@
         <h1>Bruno Bolivar Bercelli</h1>
         <p>Dev</p>
       </div>
-      <ul>
+      <ul class="menu">
         <li>
           <a
             href="https://github.com/brunobolivarbercelli/brunobolivarbercelli.github.io"
@@ -38,15 +38,36 @@
           >
         </li>
         <li>
-          <a href="mailto:bruno@bercelli.com"> Contato via e-mail </a>
+          <a href="mailto:bruno@bercelli.com">Contato via e-mail</a>
         </li>
         <li>
           <a href="https://wa.me/5519991534996" target="_blank"
             >Contato via Whatsapp ✆</a
           >
         </li>
-        <li>
-          <a href="#">Ver meu portifólio </a>
+        <li class="submenu-parent">
+          <a href="#">Ver meu Portfólio ▾</a>
+          <ul class="submenu">
+            <li>
+              <a href="https://bercelli.com/meu-custo-real/" target="_blank"
+                >Meu Custo Real</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://brunobolivarbercelli.github.io/site1/"
+                target="_blank"
+                >Site 1</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://brunobolivarbercelli.github.io/site2/"
+                target="_blank"
+                >Site 2</a
+              >
+            </li>
+          </ul>
         </li>
       </ul>
       <div id="social-links">
@@ -78,6 +99,7 @@
         </p>
       </footer>
     </div>
+
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
