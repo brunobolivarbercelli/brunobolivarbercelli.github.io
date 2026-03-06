@@ -208,23 +208,18 @@ footer {
 }
 .menu {
   list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 .menu li {
   position: relative;
-  margin-bottom: 10px; /* ajuste se quiser horizontal */
 }
 
 .menu li a {
   text-decoration: none;
-  color: #000;
 }
 
 .submenu {
   display: none;
-  list-style: none;
 }
 .submenu-parent:hover .submenu {
   display: block;
